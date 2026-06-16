@@ -6,7 +6,7 @@ updated: 2026-06-16
 ---
 # Home
 
-New here? Read the [[vault-guide]] for structure, then [[workflows]] for the rules, then [[handbook]] for how to drive the tools day to day.
+New here? Start with [[quickstart]] for the ten-minute on-ramp. Then [[vault-guide]] for structure, [[workflows]] for the rules, and [[handbook]] for how to drive the tools day to day.
 
 ## Maps
 - [[moc-ai|AI and ML]]

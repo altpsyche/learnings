@@ -12,7 +12,10 @@ updated: <% tp.date.now("YYYY-MM-DD") %>
 - [[ ]]
 
 ## All notes in this domain
-<!-- Replace "ai" with this MOC's domain tag. -->
+<!-- Domain MOC: replace "ai" with this MOC's domain, in BOTH queries below.
+     Sub-MOC (a cluster inside a domain, not one of the eight domains): a sub-MOC is
+     not a new domain, so filter by its topic tag instead. Replace both WHERE lines
+     with, for example: WHERE contains(file.tags, "#topic/transformers") -->
 ```dataview
 TABLE status, updated FROM "Notes"
 WHERE contains(domain, "ai")
@@ -20,6 +23,7 @@ SORT status ASC, file.name ASC
 ```
 
 ## Sources in this domain
+<!-- Match the WHERE filter above (domain, or the same topic tag). -->
 ```dataview
 TABLE source_type AS type, status, rating FROM "Sources"
 WHERE contains(domain, "ai")
