@@ -20,10 +20,14 @@ It is not commutative, so AB is not the same as BA, because order is which trans
 - [[matrix-as-transform]] (each factor is a transform)
 - [[dot-product]] (the operation inside every entry)
 
+## Map
+- [[moc-math]]
+
 ## Sources
 - [[book-mml-deisenroth]]
 - [[video-3blue1brown-linear-algebra]]
 
 ## Recall
+#flashcard
 - What does the product AB mean as transforms? :: apply B first, then A, as one combined transform.
 - What is each entry of a matrix product? :: a dot product of a row of the left matrix and a column of the right.

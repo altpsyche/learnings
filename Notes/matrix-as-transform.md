@@ -22,10 +22,14 @@ Columns are the images of the basis vectors, and linearity fills in the rest. Th
 - [[eigenvector]] (its invariant directions)
 - [[change-of-basis]] (the same transform in other coordinates)
 
+## Map
+- [[moc-math]]
+
 ## Sources
 - [[book-mml-deisenroth]]
 - [[video-3blue1brown-linear-algebra]]
 
 ## Recall
+#flashcard
 - What do the columns of a transformation matrix represent? :: where each basis vector lands after the transform.
 - What does the determinant tell you geometrically? :: the factor by which area or volume is scaled, and its sign tells you whether orientation flips.

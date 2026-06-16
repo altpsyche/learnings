@@ -19,9 +19,14 @@ tags: []
 ## Connects to
 - [[ ]] (how or why related)
 
+## Map
+<!-- At least one MOC, so the note is never an orphan. For example [[moc-math]]. -->
+- [[ ]]
+
 ## Sources
 - [[ ]]
 
 ## Recall
-<!-- Spaced-repetition prompts. Question, then answer after the double colon. -->
+<!-- Spaced-repetition prompts. The #flashcard tag makes this a deck. Question, then answer after the double colon. -->
+#flashcard
 - What is <% tp.file.title %>? :: 

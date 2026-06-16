@@ -24,9 +24,9 @@ Properties carry fixed fields. Tags carry cross-cutting themes. Do not duplicate
 
 | Property | Values |
 |---|---|
-| type | concept, source, moc, project, episode, script, blog, code, daily, weekly |
+| type | concept, source, moc, project, episode, script, blog, code, daily, weekly, reference |
 | domain (list) | ai, graphics, tech-art, gamedev, math, gpu, tools, career |
-| status | seed, growing, evergreen for concepts and sources. For episodes it is the stage: planned, in-progress, shipped |
+| status | seed, growing, evergreen, for every type. For an episode, seed is planned, growing is in production, evergreen means shipped |
 | source_type | paper, book, course, video, blog |
 
 Tags:
@@ -34,6 +34,7 @@ Tags:
 - #medium/shader, #medium/plot, #medium/code mark the honest medium a concept or episode visual deserves (the bible's tags).
 - #flashcard marks a line carrying a recall prompt (question, then answer after the double colon) for Spaced Repetition.
 - #review marks anything to revisit. #has-code marks a note that carries a snippet.
+- #series and #production tag the production project and the notes that belong to it.
 
 Conventions: underscores in property keys (source_type), kebab-case in filenames and tag values, singular nouns.
 
@@ -50,6 +51,14 @@ Each episode is a folder under Projects/learn-with-me-ai/episodes/epNN-slug/ hol
 Keep the epNN prefix on every file so wiki-link names stay unique across episodes.
 
 Episode 1 (the ep01-linear-algebra folder) is the reference blueprint. Copy its shape for every later episode: one hub, one script, one blog, one code note, plus concept notes in Notes and source notes in Sources, with images in Assets.
+
+How to start episode N (cloning the blueprint):
+1. Copy the ep01-linear-algebra folder to episodes/epNN-slug.
+2. Rename all four files from the ep01 prefix to epNN-slug: epNN-slug.md, epNN-script.md, epNN-blog.md, epNN-code.md.
+3. In each file, replace the ep01 link targets with the new ones, so the hub points at [[epNN-script]], [[epNN-blog]], [[epNN-code]] and the three brains point back at [[epNN-slug]].
+4. In the hub frontmatter set title, module, and episode (the number, which the production board sorts on), and reset every channel status to idea and every artifact link to empty.
+5. Clear the body of the four files back to the goal, beats, outline, and build plan for this episode, keeping the section headings.
+6. Link the concept notes the episode needs. Write them through the class-notes flow as you actually learn them.
 
 The hub frontmatter is the production dashboard, the one place each channel's state lives:
 - per-channel status (code_status, shader_status, script_status, blog_status, video_status), each one of idea, drafting, done, published.
@@ -74,6 +83,8 @@ Blog and YouTube are not separate notes. They are two channels on the same hub (
 - Daily: scratch in the daily note, then convert anything durable to atomic notes the same day.
 - Weekly (t-weekly): empty 00-Inbox, promote seed to growing to evergreen, adopt orphans, review due flashcards, pick the next focus.
 - Per episode ship: set hub statuses, paste URLs, mark evergreen, log it in the project hub.
+
+For the step-by-step version of these loops, the tool keystrokes, and long-term maintenance, see [[handbook]].
 
 ## Where does X go
 | Thing | Where | Type |

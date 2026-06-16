@@ -6,7 +6,7 @@ updated: 2026-06-16
 ---
 # Home
 
-New here? Read the [[vault-guide]] for structure, then [[workflows]] for how to work day to day.
+New here? Read the [[vault-guide]] for structure, then [[workflows]] for the rules, then [[handbook]] for how to drive the tools day to day.
 
 ## Maps
 - [[moc-ai|AI and ML]]
@@ -57,4 +57,3 @@ LIMIT 10
 - [[papers]] (all papers)
 - [[concepts]] (all concepts by status)
 - [[episodes]] (episode production board)
-```

@@ -21,9 +21,13 @@ Addition is tip to tail. Scalar multiplication stretches or flips. The list-of-n
 - [[matrix-as-transform]] (what maps vectors to vectors)
 - [[change-of-basis]] (why the components are not the vector)
 
+## Map
+- [[moc-math]]
+
 ## Sources
 - [[book-mml-deisenroth]]
 - [[video-3blue1brown-linear-algebra]]
 
 ## Recall
+#flashcard
 - Why is a vector not the same thing as its list of components? :: the components are coordinates in a chosen basis. The vector itself is basis independent.

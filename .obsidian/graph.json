@@ -5,8 +5,49 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Maps",
+      "color": { "a": 1, "rgb": 15057019 }
+    },
+    {
+      "query": "path:Projects",
+      "color": { "a": 1, "rgb": 13007069 }
+    },
+    {
+      "query": "[domain:ai]",
+      "color": { "a": 1, "rgb": 6402031 }
+    },
+    {
+      "query": "[domain:graphics]",
+      "color": { "a": 1, "rgb": 10011513 }
+    },
+    {
+      "query": "[domain:math]",
+      "color": { "a": 1, "rgb": 14707829 }
+    },
+    {
+      "query": "[domain:tech-art]",
+      "color": { "a": 1, "rgb": 13736550 }
+    },
+    {
+      "query": "[domain:gamedev]",
+      "color": { "a": 1, "rgb": 5682882 }
+    },
+    {
+      "query": "[domain:gpu]",
+      "color": { "a": 1, "rgb": 12089307 }
+    },
+    {
+      "query": "[domain:tools]",
+      "color": { "a": 1, "rgb": 11252415 }
+    },
+    {
+      "query": "[domain:career]",
+      "color": { "a": 1, "rgb": 11914920 }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +58,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.13168724279835334,
+  "scale": 0.7132754626224369,
   "close": true
 }

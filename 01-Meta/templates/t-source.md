@@ -16,7 +16,7 @@ tags: []
 ## Summary
 <!-- 3-5 lines: what it claims, why it matters. -->
 
-## Key claims / quotes
+## Key claims
 - 
 
 ## Concepts this seeds

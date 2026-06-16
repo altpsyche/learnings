@@ -6,7 +6,7 @@ updated: 2026-06-16
 ---
 # Vault Guide
 
-How this vault works. The day-to-day procedures live in [[workflows]].
+How this vault works. The day-to-day rules live in [[workflows]], and the full operator's manual, how to drive every tool, the daily and weekly motions, and long-term maintenance, lives in [[handbook]].
 
 ## The idea
 A link-first learning second brain. Knowledge lives as small, atomic concept notes in Notes, connected by links and surfaced through Maps of Content (MOCs) in Maps. Folders are few and shallow on purpose. The graph is the structure.
@@ -34,11 +34,12 @@ It has to scale across everything I learn: graphics and rendering, tech art, gam
 - Concepts: lowercase kebab, singular, for example dot-product.md, matrix-as-transform.md, brdf.md.
 - MOCs: moc-domain.md.
 - Sources: type-author-year-slug.md, for example paper-vaswani-2017-attention.md.
+- Episode assets: epNN-slug, for example ep01-grid-transform.png, so images sort with their episode in the flat Assets folder.
 - Daily: YYYY-MM-DD.md.
 
 ## Frontmatter (properties)
 Shared: title, aliases, type, domain (list), status, created, updated, tags (list).
-- type: concept, source, moc, project, episode, script, blog, code, daily, weekly
+- type: concept, source, moc, project, episode, script, blog, code, daily, weekly, reference (reference is for plan and index documents such as the series bible, kept out of the concept and source queries)
 - domain: ai, graphics, tech-art, gamedev, math, gpu, tools, career
 - status: seed (just made), growing (understood and linking), evergreen (could teach it from this note alone)
 - Sources add: source_type (paper, book, course, video, blog), author, year, url, rating.

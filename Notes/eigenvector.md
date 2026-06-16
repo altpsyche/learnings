@@ -20,10 +20,14 @@ Solve A v = lambda v through the characteristic polynomial, or numerically by po
 - [[matrix-as-transform]] (the invariant directions of one)
 - [[change-of-basis]] (the eigenbasis diagonalises the transform)
 
+## Map
+- [[moc-math]]
+
 ## Sources
 - [[book-mml-deisenroth]]
 - [[video-3blue1brown-linear-algebra]]
 
 ## Recall
+#flashcard
 - What makes a vector an eigenvector of A? :: A only scales it, A v = lambda v, so it stays on its own line.
 - What does PCA have to do with eigenvectors? :: principal components are the eigenvectors of the data's covariance matrix.

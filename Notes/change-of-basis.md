@@ -21,9 +21,13 @@ A change-of-basis matrix P, whose columns are the new basis vectors written in o
 - [[matrix-as-transform]] (transforms also change under a basis change)
 - [[eigenvector]] (the basis that diagonalises a transform)
 
+## Map
+- [[moc-math]]
+
 ## Sources
 - [[book-mml-deisenroth]]
 - [[video-3blue1brown-linear-algebra]]
 
 ## Recall
+#flashcard
 - What changes and what stays the same under a change of basis? :: the component numbers change, the vector itself does not.

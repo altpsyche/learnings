@@ -1,3 +1,10 @@
+---
+title: "Enrollment Plan: Courses Mapped to the Bible"
+type: reference
+domain: [ai]
+created: 2026-06-16
+updated: 2026-06-16
+---
 # Enrollment Plan: Courses Mapped to the Bible
 ### A sequenced, bottom-to-top route through existing courses, paired with the from-scratch series
 

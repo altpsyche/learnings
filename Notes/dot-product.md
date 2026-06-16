@@ -22,10 +22,14 @@ This same score returns later as cosine similarity in embeddings (Episode 13) an
 - [[vector]] (its operands)
 - [[matrix-multiplication]] (built out of dot products)
 
+## Map
+- [[moc-math]]
+
 ## Sources
 - [[book-mml-deisenroth]]
 - [[video-3blue1brown-linear-algebra]]
 
 ## Recall
+#flashcard
 - What are the dot product's two interpretations? :: geometric projection of one vector onto another, and a similarity score.
 - When is a dot b zero? :: when the vectors are orthogonal.

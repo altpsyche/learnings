@@ -1,7 +1,7 @@
 {
   "settings": {
     "flashcardTags": [
-      "#flashcards"
+      "#flashcard"
     ],
     "flashcardTagsToIgnore": [],
     "convertFoldersToDecks": false,
@@ -49,7 +49,7 @@
     "showContextInCards": true,
     "showIntervalInReviewButtons": true,
     "flashcardHeightPercentage": 60,
-    "flashcardWidthPercentage": 60,
+    "flashcardWidthPercentage": 60.019455252918284,
     "flashcardHeightPercentageMobile": 100,
     "flashcardWidthPercentageMobile": 100,
     "flashcardAgainText": "Again",

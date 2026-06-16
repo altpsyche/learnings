@@ -1,3 +1,10 @@
+---
+title: "Learn With Me: AI From the Ground Up (Series Bible)"
+type: reference
+domain: [ai]
+created: 2026-06-16
+updated: 2026-06-16
+---
 # Learn With Me: AI From the Ground Up
 ### A Graphics Programmer's Path, Taught Through Real-Time Visuals
 

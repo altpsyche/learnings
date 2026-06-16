@@ -20,7 +20,7 @@ Learn the full path from arithmetic to the 2026 frontier well enough to teach it
 
 ## How this maps into the vault
 Full rules: [[workflows]]. In short:
-- Each episode is a folder, episodes/epNN-slug/, with a dashboard hub (t-episode) plus epNN-script.md and epNN-blog.md.
+- Each episode is a folder, episodes/epNN-slug/, with a dashboard hub (t-episode) plus epNN-script.md, epNN-blog.md, and epNN-code.md.
 - Each concept is an atomic note in Notes, written as you learn it, shared with moc-graphics and moc-math where it overlaps.
 - Each paper, course, or book is a source note in Sources.
 - Real code, shader, blog, and video host elsewhere. The vault drafts and plans them and tracks links and per-channel status in the hub. Board: Maps/episodes.base.
