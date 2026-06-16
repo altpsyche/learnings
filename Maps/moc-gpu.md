@@ -1,16 +1,16 @@
 ---
-title: GPU & Systems
+title: GPU and Systems
 type: moc
 domain: [gpu]
 created: 2026-06-16
 updated: 2026-06-16
 ---
-# GPU & Systems
+# GPU and Systems
 
-GPU compute, memory hierarchy, kernels, parallelism, profiling — why code is fast or slow.
+GPU compute, memory hierarchy, kernels, parallelism, profiling. Why code is fast or slow.
 
 ## Curated entry points
-- 
+<!-- add the first notes here -->
 
 ## All notes in this domain
 ```dataview
@@ -27,4 +27,4 @@ SORT status ASC
 ```
 
 ## Sub-maps
-- 
+<!-- add when a cluster earns one -->

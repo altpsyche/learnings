@@ -1,16 +1,16 @@
 ---
-title: Tools & Pipeline
+title: Tools and Pipeline
 type: moc
 domain: [tools]
 created: 2026-06-16
 updated: 2026-06-16
 ---
-# Tools & Pipeline
+# Tools and Pipeline
 
 DCC apps, content pipelines, automation, languages, dev tooling, workflow.
 
 ## Curated entry points
-- 
+<!-- add the first notes here -->
 
 ## All notes in this domain
 ```dataview
@@ -27,4 +27,4 @@ SORT status ASC
 ```
 
 ## Sub-maps
-- 
+<!-- add when a cluster earns one -->

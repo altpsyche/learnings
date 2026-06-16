@@ -4,19 +4,19 @@ type: moc
 created: 2026-06-16
 updated: 2026-06-16
 ---
-# 🧠 Home
+# Home
 
-New here? Read the [[vault-guide]].
+New here? Read the [[vault-guide]] for structure, then [[workflows]] for how to work day to day.
 
 ## Maps
-- 🤖 [[moc-ai|AI / ML]]
-- 🎨 [[moc-graphics|Graphics & Rendering]]
-- 🪄 [[moc-tech-art|Technical Art]]
-- 🎮 [[moc-gamedev|Game Dev]]
-- 📐 [[moc-math|Math & Theory]]
-- ⚡ [[moc-gpu|GPU & Systems]]
-- 🛠️ [[moc-tools|Tools & Pipeline]]
-- 🌱 [[moc-career|Career & Meta-Learning]]
+- [[moc-ai|AI and ML]]
+- [[moc-graphics|Graphics and Rendering]]
+- [[moc-tech-art|Technical Art]]
+- [[moc-gamedev|Game Dev]]
+- [[moc-math|Math and Theory]]
+- [[moc-gpu|GPU and Systems]]
+- [[moc-tools|Tools and Pipeline]]
+- [[moc-career|Career and Meta-Learning]]
 
 ## Active projects
 ```dataview
@@ -25,7 +25,7 @@ WHERE type = "project" AND project_status = "active"
 SORT updated DESC
 ```
 
-## Reading queue (unread / in-progress sources)
+## Reading queue (unread or in-progress sources)
 ```dataview
 TABLE source_type AS type, author, status FROM "Sources"
 WHERE status != "evergreen"
@@ -54,5 +54,7 @@ LIMIT 10
 ```
 
 ## Saved collections (Bases)
-- [[papers]] — all papers
-- [[concepts]] — all concepts by status
+- [[papers]] (all papers)
+- [[concepts]] (all concepts by status)
+- [[episodes]] (episode production board)
+```

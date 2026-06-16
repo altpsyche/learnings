@@ -5,12 +5,12 @@ tags: [review]
 ---
 # Week of <% tp.date.now("YYYY-MM-DD") %>
 
-## Inbox — clear it
-<!-- Every item in 00-Inbox/ filed into Sources / Notes / Assets or deleted. -->
+## Inbox, clear it
+<!-- Every item in 00-Inbox filed into Sources, Notes, or Assets, or deleted. -->
 - [ ] 00-Inbox empty
 
 ## Promote maturity
-<!-- seed -> growing -> evergreen. -->
+<!-- seed to growing to evergreen. -->
 ```dataview
 TABLE status, domain, updated FROM "Notes"
 WHERE status = "seed"

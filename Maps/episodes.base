@@ -1,0 +1,17 @@
+filters:
+  and:
+    - 'type == "episode"'
+views:
+  - type: table
+    name: Production board
+    order:
+      - file.name
+      - status
+      - code_status
+      - shader_status
+      - script_status
+      - blog_status
+      - video_status
+    sort:
+      - property: episode
+        direction: ASC

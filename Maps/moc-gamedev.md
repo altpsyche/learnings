@@ -7,10 +7,10 @@ updated: 2026-06-16
 ---
 # Game Development
 
-Engines, gameplay/systems, architecture, performance, production. The craft of shipping games.
+Engines, gameplay and systems, architecture, performance, production. The craft of shipping games.
 
 ## Curated entry points
-- 
+<!-- add the first notes here -->
 
 ## All notes in this domain
 ```dataview
@@ -27,4 +27,4 @@ SORT status ASC
 ```
 
 ## Sub-maps
-- 
+<!-- add when a cluster earns one -->

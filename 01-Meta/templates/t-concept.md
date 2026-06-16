@@ -11,18 +11,17 @@ tags: []
 > One-sentence definition in my own words.
 
 ## Intuition
-<!-- The picture/analogy. As a tech artist: what does this look like as a field, transform, or shader? -->
+<!-- The picture or analogy. As a tech artist: what does this look like as a field, transform, or shader? -->
 
 ## Detail
 <!-- Math, mechanism, the actual content. -->
 
 ## Connects to
-- [[ ]] — how/why related
+- [[ ]] (how or why related)
 
 ## Sources
 - [[ ]]
 
 ## Recall
-<!-- Spaced-repetition prompts. Question on one line, answer after. -->
+<!-- Spaced-repetition prompts. Question, then answer after the double colon. -->
 - What is <% tp.file.title %>? :: 
-```

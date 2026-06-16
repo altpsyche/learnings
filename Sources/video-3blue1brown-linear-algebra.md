@@ -14,13 +14,12 @@ updated: 2026-06-16
 tags: [topic/linear-algebra]
 ---
 ## Summary
-The canonical geometric-intuition series for linear algebra. Watch it for the *pictures* — these are
-exactly the visuals to reproduce in HLSL for [[ep01-linear-algebra]]'s shader.
+The canonical geometric-intuition series for linear algebra. Watch it for the pictures, since these are exactly the visuals to reproduce in HLSL for the [[ep01-linear-algebra]] shader.
 
-## Key claims / quotes
-- Matrices are transformations; columns are where the basis vectors land ([[matrix-as-transform]]).
-- Determinant as area/volume scaling; eigenvectors as the directions that stay on their line.
-- The dot product as projection, with a duality argument ([[dot-product]]).
+## Key claims
+- Matrices are transformations, and the columns are where the basis vectors land (see [[matrix-as-transform]]).
+- The determinant is area or volume scaling, and eigenvectors are the directions that stay on their line.
+- The dot product is projection, shown through a duality argument (see [[dot-product]]).
 
 ## Concepts this seeds
 - [[vector]]

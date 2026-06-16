@@ -11,18 +11,14 @@ tags: [topic/linear-algebra]
 > Composing two linear transforms into one. Entry (i, j) of the product is the dot product of row i of the first matrix with column j of the second.
 
 ## Intuition
-`AB` means "do B, then do A" as a single transform — exactly how you concatenate transforms in a
-render pipeline. Mechanically, each output number is a [[dot-product]].
+AB means do B, then do A, as a single transform. This is exactly how you concatenate transforms in a render pipeline. Mechanically, each output number is a [[dot-product]].
 
 ## Detail
-- **Not commutative** (`AB ≠ BA`) — order is "which transform first".
-- **Associative**, which is why a chain of transforms can be pre-multiplied once and reused.
-- It is the **atomic operation of deep learning** (GEMM): a forward pass is mostly matmuls. Why it's
-  fast or slow is its own story — Episode 5, GPU compute. *(future note)*
+It is not commutative, so AB is not the same as BA, because order is which transform happens first. It is associative, which is why a chain of transforms can be pre-multiplied once and reused. It is also the atomic operation of deep learning (GEMM), since a forward pass is mostly matrix multiplies. Why it runs fast or slow is its own topic, covered in Episode 5 on GPU compute (future note).
 
 ## Connects to
-- [[matrix-as-transform]] — each factor is a transform
-- [[dot-product]] — the operation inside every entry
+- [[matrix-as-transform]] (each factor is a transform)
+- [[dot-product]] (the operation inside every entry)
 
 ## Sources
 - [[book-mml-deisenroth]]
