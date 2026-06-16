@@ -1,0 +1,13 @@
+filters:
+  and:
+    - 'type == "concept"'
+views:
+  - type: table
+    name: Concepts by status
+    order:
+      - file.name
+      - status
+      - domain
+    sort:
+      - property: status
+        direction: ASC

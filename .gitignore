@@ -1,0 +1,9 @@
+# Obsidian — ignore volatile UI state and caches; keep notes, settings, and plugins
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.trash/

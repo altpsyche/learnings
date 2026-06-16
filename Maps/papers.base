@@ -1,0 +1,16 @@
+filters:
+  and:
+    - 'type == "source"'
+    - 'source_type == "paper"'
+views:
+  - type: table
+    name: Papers
+    order:
+      - file.name
+      - author
+      - year
+      - status
+      - rating
+    sort:
+      - property: year
+        direction: DESC
