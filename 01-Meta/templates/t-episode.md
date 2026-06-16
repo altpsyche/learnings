@@ -48,5 +48,6 @@ tags: []
 Statuses live in the frontmatter. Board: Maps/episodes.base
 - Script brain: [[epNN-script]]
 - Blog brain: [[epNN-blog]]
-- Code and shader in the separate repo. Fill code_repo and shader_url.
+- Code and shader brain: [[epNN-code]]
+- Shipping code and shader live in the separate repo. Fill code_repo and shader_url.
 - Published blog and video: fill blog_url and video_url, set statuses to published.

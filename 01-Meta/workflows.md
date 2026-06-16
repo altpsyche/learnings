@@ -24,7 +24,7 @@ Properties carry fixed fields. Tags carry cross-cutting themes. Do not duplicate
 
 | Property | Values |
 |---|---|
-| type | concept, source, moc, project, episode, script, blog, daily, weekly |
+| type | concept, source, moc, project, episode, script, blog, code, daily, weekly |
 | domain (list) | ai, graphics, tech-art, gamedev, math, gpu, tools, career |
 | status | seed, growing, evergreen for concepts and sources. For episodes it is the stage: planned, in-progress, shipped |
 | source_type | paper, book, course, video, blog |
@@ -38,15 +38,18 @@ Tags:
 Conventions: underscores in property keys (source_type), kebab-case in filenames and tag values, singular nouns.
 
 ## 3. Episode production, folder and dashboard
-Each episode is a folder under Projects/learn-with-me-ai/episodes/epNN-slug/:
+Each episode is a folder under Projects/learn-with-me-ai/episodes/epNN-slug/ holding four files:
 
 | File | Type | Role |
 |---|---|---|
 | epNN-slug.md | episode | Hub and dashboard: study spine, production status, links (t-episode) |
 | epNN-script.md | script | Narration brain: beats and draft voiceover (t-script) |
 | epNN-blog.md | blog | Written-post brain: outline and draft prose (t-blog) |
+| epNN-code.md | code | Code and shader brain: from-scratch build plan, HLSL notes, snippets (t-code) |
 
 Keep the epNN prefix on every file so wiki-link names stay unique across episodes.
+
+Episode 1 (the ep01-linear-algebra folder) is the reference blueprint. Copy its shape for every later episode: one hub, one script, one blog, one code note, plus concept notes in Notes and source notes in Sources, with images in Assets.
 
 The hub frontmatter is the production dashboard, the one place each channel's state lives:
 - per-channel status (code_status, shader_status, script_status, blog_status, video_status), each one of idea, drafting, done, published.
@@ -56,7 +59,7 @@ See the whole slate in Maps/episodes.base, the production board.
 
 Flow per episode:
 1. Plan. Create the folder and hub from [[series-bible]]. Fill goal, concepts, reading, visual, and build. Link the concept notes it needs, which get written through the class-notes flow as you actually learn them.
-2. Build. Write the real code and shader in the code repo. Drop understanding snippets and the repo link into the concept notes and the hub.
+2. Build. Write the real code and shader in the code repo. Keep the build plan, HLSL notes, and understanding snippets in epNN-code.md, with the repo path and shader URL.
 3. Script and blog. Draft in epNN-script.md and epNN-blog.md, linking the concept notes so the explanation reuses your own atomic notes.
 4. Publish. Ship the real blog, video, and shader externally. Paste URLs into the hub, set statuses to published, set the episode status to evergreen, and log it in [[learn-with-me-ai]].
 
@@ -82,6 +85,7 @@ Blog and YouTube are not separate notes. They are two channels on the same hub (
 | Episode plan and status | episodes/epNN-slug/epNN-slug.md | episode |
 | Narration draft | epNN-script.md | script |
 | Written-post draft | epNN-blog.md | blog |
-| Shipping code and shaders | separate repo, linked from the hub | |
+| From-scratch code and HLSL notes | epNN-code.md | code |
+| Shipping code and shaders | separate repo, linked from the code note | |
 | Understanding snippet | inside the concept note (#has-code) | |
 | Published blog, video, shader | external, URL in the hub frontmatter | |

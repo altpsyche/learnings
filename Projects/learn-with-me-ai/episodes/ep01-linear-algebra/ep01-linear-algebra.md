@@ -53,5 +53,6 @@ The big unlock is the [[dot-product]] wearing two faces, projection and similari
 Statuses live in the frontmatter. Board: Maps/episodes.base
 - Script brain: [[ep01-script]]
 - Blog brain: [[ep01-blog]]
-- Code and shader in the separate repo. Fill code_repo and shader_url.
+- Code and shader brain: [[ep01-code]]
+- Shipping code and shader live in the separate repo. Fill code_repo and shader_url.
 - Published blog and video: fill blog_url and video_url, set statuses to published.

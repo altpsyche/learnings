@@ -38,7 +38,7 @@ It has to scale across everything I learn: graphics and rendering, tech art, gam
 
 ## Frontmatter (properties)
 Shared: title, aliases, type, domain (list), status, created, updated, tags (list).
-- type: concept, source, moc, project, episode, script, blog, daily, weekly
+- type: concept, source, moc, project, episode, script, blog, code, daily, weekly
 - domain: ai, graphics, tech-art, gamedev, math, gpu, tools, career
 - status: seed (just made), growing (understood and linking), evergreen (could teach it from this note alone)
 - Sources add: source_type (paper, book, course, video, blog), author, year, url, rating.
@@ -55,7 +55,7 @@ Property keys use underscores, not hyphens (source_type, not source-type), becau
 - No orphans. Every new concept note links to at least one MOC and at least one other note before you leave it.
 - Reading feeds the graph. A source note's "Concepts this seeds" list spawns atomic notes.
 - Class notes go straight to atomic. Each idea becomes its own concept note as you learn it. The daily note is only a holding pen.
-- Episodes are folders with a status dashboard hub. Real code, blog, video, and shader live elsewhere, while the vault drafts and links them. See [[workflows]].
+- Episodes are folders of four files (hub, script, blog, code) with a status dashboard hub. Real code, blog, video, and shader live elsewhere, while the vault drafts and links them. See [[workflows]].
 - Weekly review (t-weekly): empty the inbox, promote maturity, adopt orphans.
 - Atomic notes are born when learned, not pre-stubbed. Do not bulk-create empty notes.
 
@@ -63,4 +63,4 @@ Property keys use underscores, not hyphens (source_type, not source-type), becau
 Dataview, Templater, Excalidraw, Obsidian Git, Spaced Repetition. Optional: Homepage, QuickAdd, Recent Files, Iconize, Style Settings. The vault works on core plugins alone. After installing Templater, point its template folder at 01-Meta/templates so the template fields resolve.
 
 ## Templates (01-Meta/templates)
-t-concept, t-source, t-moc, t-project, t-episode, t-script, t-blog, t-daily, t-weekly.
+t-concept, t-source, t-moc, t-project, t-episode, t-script, t-blog, t-code, t-daily, t-weekly.
